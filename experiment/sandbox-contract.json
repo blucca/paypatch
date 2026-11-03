@@ -1,0 +1,9 @@
+{
+  "frozen_at": "2026-11-03T22:50:11.074476+00:00",
+  "export_profile": "harbor-erp-v3",
+  "recipient_field": "ref_b",
+  "meaning": {
+    "ref_a": "booking entity code",
+    "ref_b": "contract counterparty code"
+  }
+}

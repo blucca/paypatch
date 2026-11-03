@@ -1,0 +1,7 @@
+{
+  "action": "HOLD",
+  "amount_minor": 12500,
+  "invoice_id": "INV-101",
+  "reason": "No trusted experiences identify whether ref_a or ref_b is the counterparty field for harbor-erp-v3.",
+  "recipient_id": null
+}

@@ -1,0 +1,7 @@
+{
+  "action": "STAGE_PAYMENT_DRAFT",
+  "amount_minor": 9800,
+  "invoice_id": "INV-202",
+  "reason": "Trusted harbor-erp-v3 experience identifies ref_b as the contract counterparty field; current directory resolves R91 to demo:fir.",
+  "recipient_id": "demo:fir"
+}

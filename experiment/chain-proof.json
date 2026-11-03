@@ -1,0 +1,10 @@
+{
+  "plan": "FREE",
+  "personal_payment": 0,
+  "account_match": true,
+  "delegate_authorized": true,
+  "active": true,
+  "object_version": 1062994350,
+  "transport": "Tatum Sui Gateway GraphQL",
+  "legacy_jsonrpc_http": 404
+}

@@ -1,0 +1,10 @@
+{
+  "drafts": [
+    {
+      "invoice_id": "INV-202",
+      "recipient_id": "demo:fir",
+      "amount_minor": 9800
+    }
+  ],
+  "receipt": "sandbox-action-002"
+}

@@ -1,0 +1,38 @@
+{
+  "product": "PayPatch",
+  "kind": "observed_exporter_operating_experience",
+  "fictional_sandbox": true,
+  "feedback": {
+    "source": "frozen-export-contract-validator",
+    "observed_receipt": {
+      "receipt_id": "sandbox-action-001",
+      "executed_at": "2026-11-03T22:50:56.546898+00:00",
+      "action": {
+        "action": "HOLD",
+        "amount_minor": 12500,
+        "invoice_id": "INV-101",
+        "reason": "No trusted experiences identify whether ref_a or ref_b is the counterparty field for harbor-erp-v3.",
+        "recipient_id": null
+      },
+      "status": "HOLD_RECORDED",
+      "draft": null,
+      "execution_target": "fictional local sandbox ledger"
+    },
+    "feedback_at": "2026-11-03T22:50:56.547094+00:00",
+    "export_profile": "harbor-erp-v3",
+    "operating_rule": {
+      "recipient_field": "ref_b",
+      "field_meanings": {
+        "ref_a": "booking entity code",
+        "ref_b": "contract counterparty code"
+      },
+      "recipient_resolution": "current task.directory[current task[recipient_field]].recipient_id"
+    }
+  },
+  "memory_account_gate": {
+    "transport": "Tatum Sui Gateway GraphQL",
+    "account_id": "[ACCOUNT_REDACTED]",
+    "object_version": 1062994350,
+    "delegate_authorized": true
+  }
+}

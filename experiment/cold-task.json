@@ -1,0 +1,15 @@
+{
+  "invoice_id": "INV-101",
+  "export_profile": "harbor-erp-v3",
+  "amount_minor": 12500,
+  "ref_a": "R17",
+  "ref_b": "R42",
+  "directory": {
+    "R17": {
+      "recipient_id": "demo:larch"
+    },
+    "R42": {
+      "recipient_id": "demo:birch"
+    }
+  }
+}

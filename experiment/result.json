@@ -1,0 +1,17 @@
+{
+  "completed_at": "2026-11-03T23:23:19.668182+00:00",
+  "model": "gpt-6.1-sol",
+  "valid_generations": 2,
+  "same_instructions": true,
+  "history_available": {
+    "cold": false,
+    "warm": true
+  },
+  "cold_status": "HOLD_RECORDED",
+  "warm_status": "DRAFT_STAGED",
+  "outcome": "experience restores execution",
+  "native_memory_used": true,
+  "future_identifiers_in_stored_memory": false,
+  "scope": "one fictional exporter profile; two new invoice/counterparty tasks",
+  "money_sent": 0
+}

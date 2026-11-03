@@ -1,0 +1,12 @@
+{
+  "name": "paypatch",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "python3 experiment/check.py"
+  },
+  "dependencies": {
+    "@mysten-incubation/memwal": "0.1.12"
+  }
+}
