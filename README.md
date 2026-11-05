@@ -4,7 +4,7 @@
 
 An agent remembers a verified exporter convention as encrypted Walrus Memory. A fresh session retrieves it, resolves the recipient from today's directory and stages a payment draft in a fictional local ledger.
 
-[Open the workbench](https://blucca.github.io/paypatch/) · [Technical article](docs/learning-loop.md)
+[Open the workbench](https://blucca.github.io/paypatch/) · [Watch the 2:48 demo](https://blucca.github.io/paypatch/#film) · [Technical article](docs/learning-loop.md)
 
 ![PayPatch invoice workbench](web/assets/workbench.jpg)
 
@@ -36,7 +36,7 @@ Two fresh `gpt-6.1-sol` sessions used identical task instructions. The second ta
 - Tatum's Sui Gateway reads the actual Account and verifies its active, authorized delegate before a memory operation.
 - `@mysten-incubation/memwal` `0.1.12` stored observed feedback in `gain-totalrecall-learning379`, completed its job and returned a Walrus blob ID.
 - Native recall returned that experience; a fresh agent used it in its next executed action.
-- Ten earlier pilot memories plus this learning experience completed on mainnet. Their namespaces stay separate; demo reads reuse those completed records.
+- [Ten earlier pilot memories plus this learning experience](experiment/mainnet-memory-inventory.json) completed on mainnet. Their namespaces stay separate; demo reads reuse those completed records.
 
 The live Tatum gateway advertised **GraphQL** at `https://sui-mainnet.gateway.tatum.io/graphql`. Its legacy JSON-RPC root returned HTTP 404 during integration. The adapter uses the actual advertised transport.
 

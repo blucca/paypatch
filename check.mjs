@@ -15,3 +15,8 @@ assert.equal(stageDraft({ ...task, directory: {} }, experience).status, 'HOLD_RE
 assert.equal(experienceFrom({ results: [{ text: '{' }] }), null);
 assert(!JSON.stringify(experience).includes('account_id'));
 console.log('PASS: recalled profile rule, current-directory identity, whole minor units and explicit HOLD paths');
+
+const inventory = read('mainnet-memory-inventory');
+assert.equal(inventory.records.length, 11);
+assert(inventory.records.every(r => r.status === 'done'));
+assert.equal(new Set(inventory.records.map(r => r.blob_id)).size, 11);

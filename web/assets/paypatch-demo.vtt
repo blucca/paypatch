@@ -1,0 +1,121 @@
+WEBVTT
+
+1
+00:00:00.700 --> 00:00:06.669
+PayPatch helps an accounts-payable agent carry an exporter lesson
+into the next invoice.
+
+2
+00:00:06.689 --> 00:00:10.422
+This blue workbench uses fictional business data.
+
+3
+00:00:10.442 --> 00:00:15.114
+Start with invoice INV-202 and empty history.
+
+4
+00:00:15.134 --> 00:00:21.992
+Click Stage draft: the runtime records a hold, because the
+counterparty field needs clarification.
+
+5
+00:00:23.092 --> 00:00:27.876
+On the left, INV-101 shows the earlier cold session.
+
+6
+00:00:27.896 --> 00:00:35.417
+Two fresh gpt-6.1-sol agents ran identical instructions in the
+recorded experiment.
+
+7
+00:00:35.437 --> 00:00:41.025
+The cold agent chose HOLD, and its sandbox ledger executed that
+action.
+
+8
+00:00:41.045 --> 00:00:48.824
+Today's editable workbench runs a deterministic policy; those model
+generations remain recorded evidence.
+
+9
+00:00:49.924 --> 00:00:53.684
+Now recall the experience in Recorded proof mode.
+
+10
+00:00:53.704 --> 00:00:58.288
+The returned lesson names ref_b as the contract counterparty field.
+
+11
+00:00:58.308 --> 00:01:03.248
+It combines the executed hold receipt with trusted exporter
+feedback.
+
+12
+00:01:03.268 --> 00:01:10.376
+Encrypted Walrus Memory carries this general rule forward; today's
+directory supplies the recipient.
+
+13
+00:01:11.476 --> 00:01:14.563
+Switch to Live mainnet and recall again.
+
+14
+00:01:14.583 --> 00:01:26.443
+This click makes a new, read-only account check through Tatum's Sui
+Gateway GraphQL, followed by actual native SDK retrieval from the
+original learning namespace.
+
+15
+00:01:26.463 --> 00:01:33.320
+The authorized delegate reads the same completed Walrus experience,
+with today's read timestamp.
+
+16
+00:01:34.420 --> 00:01:38.107
+Return to the current invoice and stage the draft.
+
+17
+00:01:38.127 --> 00:01:42.470
+The learned field, ref_b, points to R91.
+
+18
+00:01:42.490 --> 00:01:51.382
+Today's directory resolves that reference to demo:fir, so INV-202
+stages 9,800 minor units.
+
+19
+00:01:51.402 --> 00:01:55.496
+The amount and identity come directly from the current input.
+
+20
+00:01:56.596 --> 00:02:03.512
+Change R91's recipient to demo:maple, and the amount to 4,721.
+
+21
+00:02:03.532 --> 00:02:08.231
+Stage again: the receipt shows a new current-directory draft.
+
+22
+00:02:08.251 --> 00:02:19.166
+Open Memory provenance to inspect the original blob identifier,
+observed receipt, GraphQL account transport, and active, authorized
+delegate.
+
+23
+00:02:19.186 --> 00:02:21.992
+The exporter lesson stays ref_b.
+
+24
+00:02:23.092 --> 00:02:32.948
+Below, inspect the two-session evidence: identical instructions,
+empty versus recalled history, and executed hold-to-draft results.
+
+25
+00:02:32.968 --> 00:02:40.711
+Ten earlier pilot memories plus one observed learning experience
+completed on mainnet, in separate namespaces.
+
+26
+00:02:40.731 --> 00:02:47.312
+Follow the technical article and public source to reproduce the
+receipts and explore the learning loop.

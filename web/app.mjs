@@ -65,4 +65,4 @@ $('invoice-form').onsubmit = event => {
     $('receipt').append(list);
   } else { $('receipt').className = 'draft-receipt held'; $('receipt').append(element('h3', 'Hold recorded'), element('p', result.reason)); }
 };
-if (config.film_ready) $('film').hidden = false;
+if (config.film_ready) { $('film').hidden = false; if (location.hash === '#film') $('film').scrollIntoView({ block: 'start' }); }
