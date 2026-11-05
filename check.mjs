@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { experienceFrom, stageDraft } from './core.mjs';
+const read = name => JSON.parse(readFileSync(new URL(`./experiment/${name}.json`, import.meta.url)));
+const task = read('warm-task');
+const experience = experienceFrom(read('recalled-experience'));
+assert.equal(stageDraft(task, null).status, 'HOLD_RECORDED');
+assert.deepEqual(stageDraft(task, experience).draft, read('warm-ledger').drafts[0]);
+const changed = structuredClone(task);
+changed.directory.R91.recipient_id = 'demo:maple'; changed.amount_minor = 4721;
+assert.deepEqual(stageDraft(changed, experience).draft, { invoice_id: 'INV-202', recipient_id: 'demo:maple', amount_minor: 4721 });
+for (const amount of [-1, 0, 1.2, Number.MAX_SAFE_INTEGER + 1]) assert.equal(stageDraft({ ...task, amount_minor: amount }, experience).status, 'HOLD_RECORDED');
+assert.equal(stageDraft({ ...task, export_profile: 'different-exporter' }, experience).status, 'HOLD_RECORDED');
+assert.equal(stageDraft({ ...task, directory: {} }, experience).status, 'HOLD_RECORDED');
+assert.equal(experienceFrom({ results: [{ text: '{' }] }), null);
+assert(!JSON.stringify(experience).includes('account_id'));
+console.log('PASS: recalled profile rule, current-directory identity, whole minor units and explicit HOLD paths');

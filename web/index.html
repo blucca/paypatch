@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An executed task becomes encrypted Walrus Memory. The next invoice uses the learned exporter rule and today's recipient directory.">
+  <meta name="theme-color" content="#183D63">
+  <title>PayPatch — A new invoice. An old lesson.</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.mjs"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="PayPatch home"><svg viewBox="0 0 34 34" aria-hidden="true"><path d="M3 3h18v23H3z"/><path d="M13 10h18v21H13z"/><path class="stitch" d="M8 16h17M8 21h17"/></svg>PayPatch</a>
+    <nav aria-label="Main"><a href="#evidence">Evidence</a><a href="https://github.com/blucca/paypatch/blob/main/docs/learning-loop.md" target="_blank" rel="noreferrer">How it works</a><a href="https://github.com/blucca/paypatch" target="_blank" rel="noreferrer">Source</a></nav>
+  </header>
+  <main>
+    <section class="intro">
+      <h1>A new invoice.<br>An old lesson.</h1>
+      <div class="intro-copy"><p>An agent learns how your exporter works, then finds the recipient in today's directory.</p><span>Encrypted experience on Walrus. Account verification by Tatum.</span></div>
+    </section>
+
+    <section class="workbench" aria-label="Cross-session invoice workbench">
+      <article class="old-session">
+        <div class="slip-heading"><h2>First session</h2><span class="hold-pill">Held</span></div>
+        <p class="invoice-number">INV-101</p>
+        <p class="slip-subtitle">harbor-erp-v3</p>
+        <dl class="old-directory"><div><dt>ref_a / R17</dt><dd>demo:larch</dd></div><div><dt>ref_b / R42</dt><dd>demo:birch</dd></div><div><dt>Amount</dt><dd>12,500 minor units</dd></div></dl>
+        <div class="hold-note"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg><div><h3>A useful pause</h3><p>The empty-history agent asked which reference identifies the counterparty. Its actual ledger recorded a hold.</p></div></div>
+        <p class="record-note">Recorded model run · November 3, 2026 UTC</p>
+        <a class="quiet-link" href="experiment/cold-action.json" target="_blank">Read the executed action</a>
+      </article>
+
+      <aside class="memory-seam" aria-label="Exporter experience">
+        <div class="memory-connection" aria-hidden="true"></div>
+        <div class="seam-content">
+          <svg class="memory-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M12 8h24v32H12zM8 16h32M8 24h32M8 32h32"/><circle cx="24" cy="24" r="5"/></svg>
+          <h2>The lesson</h2>
+          <p class="seam-lead">Keep the field's meaning.<br>Look up today's recipient.</p>
+          <div class="mode-switch" role="group" aria-label="Experience source"><button id="recorded-mode" class="selected" aria-pressed="true">Recorded proof</button><button id="live-mode" aria-pressed="false">Live mainnet</button></div>
+          <div id="memory-rule" class="memory-rule"><span>History is empty</span><strong>?</strong><p>Recall the trusted exporter feedback to connect these sessions.</p></div>
+          <button id="recall" class="recall-button">Recall experience</button>
+          <p id="recall-status" class="recall-status" role="status">The saved mainnet experience is ready to replay.</p>
+          <details id="provenance"><summary>Memory provenance</summary><dl id="memory-provenance"><div><dt>Store</dt><dd>Encrypted Walrus Memory</dd></div><div><dt>Source</dt><dd>Executed receipt + frozen contract validator</dd></div></dl></details>
+        </div>
+      </aside>
+
+      <article class="new-session">
+        <div class="slip-heading"><h2>Next session</h2><span class="editable-pill">Try it</span></div>
+        <form id="invoice-form">
+          <label class="invoice-label" for="invoice-id">Invoice ID</label><input class="invoice-id" id="invoice-id" value="INV-202" spellcheck="false" required>
+          <p class="slip-subtitle">Same exporter. Every reference and recipient changed.</p>
+          <fieldset><legend>Today's directory</legend>
+            <label for="recipient-a"><span>ref_a / R68</span><input id="recipient-a" value="demo:elm" spellcheck="false" required></label>
+            <label for="recipient-b"><span>ref_b / R91</span><input id="recipient-b" value="demo:fir" spellcheck="false" required></label>
+          </fieldset>
+          <label class="amount-row" for="amount"><span>Amount, minor units</span><input id="amount" type="number" min="1" step="1" value="9800" required></label>
+          <p class="edit-hint">Change the directory or amount. The memory keeps the exporter rule.</p>
+          <button class="stage-button" type="submit">Stage draft</button>
+        </form>
+        <div id="receipt" class="draft-receipt" aria-live="polite"><h3>Your next action</h3><p>Stage with empty history to see a hold, or recall the experience first.</p></div>
+        <button id="reset" class="text-button">Start with empty history</button>
+      </article>
+    </section>
+    <p class="workbench-caption">Interactive rule runtime · Fictional sandbox drafts · Measured model generations are in the evidence below.</p>
+
+    <section id="evidence" class="evidence-section">
+      <div class="evidence-heading"><h2>Two fresh agents.<br>One shared lesson.</h2><p>The measured experiment used the same model and identical instructions. The second session received the actual decrypted recall, then resolved a completely new invoice.</p></div>
+      <table><caption>Recorded experiment, November 3, 2026 UTC</caption><thead><tr><th scope="col">What changed</th><th scope="col">Cold session</th><th scope="col">Warm session</th></tr></thead><tbody><tr><th scope="row">Available experience</th><td>Empty</td><td>Native Walrus recall</td></tr><tr><th scope="row">Invoice / references</th><td>INV-101 / R17, R42</td><td>INV-202 / R68, R91</td></tr><tr><th scope="row">Actual ledger action</th><td>Hold recorded</td><td>Draft staged: demo:fir / 9,800</td></tr><tr><th scope="row">Model / instructions</th><td>gpt-6.1-sol / identical</td><td>gpt-6.1-sol / identical</td></tr></tbody></table>
+      <div class="native-detail"><div><h3>Experience, carried forward</h3><p>Trusted feedback follows an executed receipt. Walrus encrypts, stores and retrieves the general rule. The second invoice's identifiers are absent from that stored experience.</p><a href="experiment/recalled-experience.json" target="_blank">Inspect the native recall</a></div><div><h3>A real account gate</h3><p>Tatum's Sui Gateway reads the mainnet MemWal Account and verifies its active, authorized delegate before the native operation. Ten pilot memories and one observed learning experience completed on mainnet.</p><a href="experiment/chain-proof.json" target="_blank">Inspect the chain proof</a></div><div><h3>Test the separation</h3><p>The browser executes the returned rule deterministically. Change today's recipient above and stage again. The stored lesson contains the reference field, while the new directory supplies the identity.</p><a href="https://github.com/blucca/paypatch/blob/main/docs/learning-loop.md" target="_blank" rel="noreferrer">Read the technical article</a></div></div>
+      <p class="scope-note">Measured scope: one fictional exporter profile and two fresh model tasks. History availability was the intervention. All ledger actions are local drafts.</p>
+    </section>
+    <section id="film" class="film-section" hidden><h2>Watch the complete learning loop</h2><video id="demo-video" controls preload="metadata" poster="assets/demo-poster.jpg"><source src="assets/paypatch-demo.mp4" type="video/mp4"><track kind="subtitles" src="assets/paypatch-demo.vtt" srclang="en" label="English" default></video><p>Real workbench recording with a narrated walkthrough of the measured experiment and live native recall.</p></section>
+  </main>
+  <footer><span>PayPatch · Built with Codex</span><a href="https://github.com/blucca/paypatch" target="_blank" rel="noreferrer">Public source and reproducible evidence</a></footer>
+</body>
+</html>

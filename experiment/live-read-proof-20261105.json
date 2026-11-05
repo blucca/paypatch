@@ -1,0 +1,25 @@
+{
+  "mode": "live",
+  "recalled_at": "2026-11-05T07:50:58.781Z",
+  "gate": {
+    "account_match": true,
+    "delegate_authorized": true,
+    "active": true,
+    "object_version": 1062994350,
+    "transport": "Tatum Sui Gateway GraphQL",
+    "checked_at": "2026-11-05T07:50:55.001Z"
+  },
+  "experience": {
+    "export_profile": "harbor-erp-v3",
+    "source": "frozen-export-contract-validator",
+    "recipient_field": "ref_b",
+    "field_meanings": {
+      "ref_a": "booking entity code",
+      "ref_b": "contract counterparty code"
+    },
+    "receipt_id": "sandbox-action-001",
+    "receipt_status": "HOLD_RECORDED",
+    "blob_id": "h_4O7_nP3-gPH_QhmUd3hW6o-S_FPR3QwFeMImKZ_JE",
+    "created_at": "2026-11-03T23:21:06.742340Z"
+  }
+}
