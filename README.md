@@ -17,7 +17,7 @@ An agent remembers a verified exporter convention as encrypted Walrus Memory. A 
 
 The workbench opens in **Recorded proof** mode, reading the published actual mainnet recall. **Live mainnet** uses a read-only native reader to check the account through Tatum and retrieve that same experience from Walrus. The source and date are visible in the interface. The browser executes a deterministic draft kernel; the two measured model generations below are recorded observations.
 
-Live read-only native endpoint: `https://taken-belt-halloween-tracks.trycloudflare.com/api/recall`. [Latest sanitized native-read proof](experiment/live-read-proof-20261105.json).
+The temporary live judging endpoint was retired on November 18, 2026 with organizer approval. Recorded proof, the source and the film remain public. [Latest sanitized native-read proof](experiment/live-read-proof-20261105.json).
 
 ## Observed learning loop
 
